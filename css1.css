@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 145, 0);
+}
+
+
+  .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  auto 50px 50px 50px ;
+    height: 50rem;
+    width: 90rem; 
+  }
